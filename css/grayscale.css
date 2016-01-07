@@ -375,6 +375,9 @@ h6 {
     color:gold;
 }
 
+.fa-music {
+    color:grey;
+}
 .fa-book{
     color:maroon;
 }
@@ -388,7 +391,12 @@ h6 {
 }
 
 .fa-bicycle{
-    color:darkgreen;
+    color:coral;
+}
+
+.fa-globe{
+    color:forestgreen;
+    
 }
 
 @media(max-width:1199px) {
