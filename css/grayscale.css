@@ -16,9 +16,29 @@ html {
     width: 100%;
     height: 100%;
 }
+@font-face {
+    font-family: Beacon;
+    src: url(../fonts/beacon.ttf);
+}
 
-h1,
-h2,
+h1 {
+    margin: 0 0 35px;
+    color: #000;
+    font-family: Beacon, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 1500%;
+    letter-spacing: 1px;
+}
+
+h2 {
+     margin: 0 0 35px;
+    color: #000;
+    font-family: Beacon, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 700%;
+    letter-spacing: 1px;
+}
+
 h3,
 h4,
 h5,
@@ -141,6 +161,10 @@ a:focus {
     }
 }
 
+.title{
+    
+}
+
 .intro {
     display: table;
     width: 100%;
@@ -184,9 +208,7 @@ a:focus {
     }
 }
 
-.intro-text {
-    font-weight: 700
-}
+
 
 .btn-circle {
     width: 70px;
