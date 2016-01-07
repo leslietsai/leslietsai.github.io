@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
 }
 
 html {
@@ -24,6 +24,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
+    color: #000;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -80,7 +81,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -89,7 +90,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-custom .nav li a {
@@ -119,7 +120,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #000;
 }
 
 @media(min-width:768px) {
@@ -136,7 +137,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #fff;
     }
 }
 
@@ -146,8 +147,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/IMG_9273.jpg) no-repeat bottom center scroll;
+    color: #000;
+    background: url(../img/IMG_8669.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -183,19 +184,29 @@ a:focus {
     }
 }
 
+.intro-text {
+    font-weight: 700
+}
+
 .btn-circle {
     width: 70px;
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+animated{
+    -webkit-animation-duration: 3s;
+}
+.fadeInUp {
+    -webkit-animation-delay: 0.5s;
 }
 
 .btn-circle:hover,
@@ -269,7 +280,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/IMG_9888.jpg) no-repeat center -280px scroll;
+    background: url(../img/IMG_8581.jpg) no-repeat center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -283,6 +294,10 @@ a:focus {
     margin-top: 100px;
 }
 
+#contact {
+    margin-bottom: 200px;
+    
+}
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
@@ -333,16 +348,16 @@ h6 {
 }
 
 .btn-info {
-    border: 1px solid #000;
+    border: 1px solid #fff;
     color: #42dca3;
     background-color: transparent;
 }
 .btn-info:hover, 
 .btn-default:focus{
-    border: 1px solid #000;
+    border: 1px solid #fff;
     outline: 0;
-    color: #000;
-    background-color: #42dca3;
+    color: #42dca3;
+    background-color: #fff;
 }
 .btn-info.pro:hover:after {
     content: ' (Proficient)';
@@ -352,8 +367,28 @@ h6 {
 }
 
 
-ul.banner-social-buttons {
-    margin-top: 0;
+.fa-university {
+    color:navy;
+}
+
+.fa-desktop {
+    color:gold;
+}
+
+.fa-book{
+    color:maroon;
+}
+
+.fa-plane{
+    color:skyblue;
+}
+
+.fa-pencil{
+    color:blueviolet;
+}
+
+.fa-bicycle{
+    color:darkgreen;
 }
 
 @media(max-width:1199px) {
