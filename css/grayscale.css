@@ -167,7 +167,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #D3D3D3;
+    color: #fff;
     background: url(../img/IMG_8669.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -298,7 +298,7 @@ animated{
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background-color: #000;
+    background-color: #D3D3D3;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
