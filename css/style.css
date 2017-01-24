@@ -1,0 +1,33 @@
+body {
+	padding-top: 50px;
+	@media screen and (max-width: 768px) {
+    	body { 
+			padding-top: 400px; 
+		}
+	}
+	font-family: 'Poppins', sans-serif;	
+}
+.title img {
+    width: 50%;
+    margin: 0 auto;
+	padding: 0;
+	background-size: cover;
+}
+	
+.about {
+	padding: 60px;	
+	background-color: #C8A2C8;
+}
+
+.projects {
+	padding: 60px;
+}
+
+.resume {
+	padding: 60px;
+	background-color: #C8A2C8;
+}
+
+.links {
+	padding: 60px;
+}
