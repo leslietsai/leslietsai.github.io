@@ -1,217 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html >
 <head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+      <link rel="stylesheet" href="css/style.css">
 
-    <title>Leslie Tsai</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!--Navigation-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    	<div class="navbar-header">
+      		<a class="navbar-brand" href="#">Leslie Tsai</a>
+    	</div>
+    	<ul class="nav navbar-nav navbar-right">
+		    <li><a href="#about">About</a></li>
+		    <li><a href="#projects">Projects</a></li>
+		    <li><a href="#resume">Resume</a></li>
+		    <li><a href="#links">Contact</a></li>
+    	</ul>
+  </div>
+</nav>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
+<!--Body-->
+<div class="container-fluid">
+	<div class="title row text-center" id="title">
+		<div class="row">
+			<div class="col-md-12">
+				<img class="img-responsive" src="http://i66.tinypic.com/309j1u8.png" alt="Leslie Tsai">
+			</div>
+		</div>
+	</div>
+	<div class="about row text-center" id="about">
+		<h2>About Me</h2>
+		<p>
+			Welcome to my website! 
+		</p>
+		<p>I'm a second year Computer Science / Intended Cognitive Science double major at UC Berkeley. 
+		</p>
+		<p>
+			I'm looking for opportunities in software engineering, specifically web development or full-stack engineering.
+		</p>
+		<p>
+			Some of my hobbies include 
+			<a href="calband.berkeley.edu" target="_blank">playing clarinet in marching band</a> and 
+			<a href="https://figureskating.berkeley.edu" target="_blank">figure skating!</a>
+		</p>
+	</div>
+	<div class="projects row text-center" id="projects">
+		<h2>My Projects</h2>
+		<div class="row">
+			<div class="col-md-6 thumb">
+				<a href="http://www.circle-of-suck.com/" class="thumbnail" target="_blank"><img src="http://i66.tinypic.com/2d8l3xh.png"  alt="Circle of Suck"></a>
+			</div>
+			<div class="col-md-6 thumb">
+				<a href="http://leslietsai.github.io" class="thumbnail"><img src="http://i66.tinypic.com/2d8l3xh.png"  alt="My Website"></a>
+			</div>
+		</div>
+	</div>
+	<div class="resume row text-center" id="resume">
+		<h2>Resume</h2>
+		<p>View my resume here</p>
+	</div>
+	<div class="links row text-center" id="links">
+		<h2>Contact</h2>
+		<ul class="list-inline banner-social-buttons">
+			<li>
+				<a href="mailto:leslietsai@berkeley.edu" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+			</li>
+			<li>
+				<a href="https://linkedin.com/in/leslietsai" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+			</li>
+			<li>
+				<a href="https://github.com/leslietsai" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
+			</li>
+			<li>
+				<a href="http://vsco.co/leslietsaii" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-camera-retro fa-fw"></i> <span class="network-name">VSCO</span></a>
+			</li>
+		</ul>
+	</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Resume</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Links</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro" id="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">   
-                        <h1 class="animated fadeInDown"> Leslie Tsai </h1>
-                        <h3 class="animated fadeInUp intro-text">UC Berkeley '19.</h3>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2 class="animated zoomIn">About Me</h2>
-            
-                <div class="row">
-                    <div class="col-xs-12 col-lg-3 animated slideInLeft">
-                        <h4>Education</h4>
-                        <i class="fa fa-university fa-4x"></i>
-                        <p>UC Berkeley 2019</p>
-                        <i class="fa fa-desktop fa-4x"></i>
-                        <p>Computer Science Major</p>
-                    </div>
-                    <div class="col-xs-12 col-lg-3 animated slideInLeft">
-                        <h4>Skills</h4>
-                        <h6> Programming Languages</h6>
-                        <button type="button" class="btn btn-info pro btn-sm">Python</button><br>
-                        <button type="button" class="btn btn-info pro btn-sm">html/css</button><br>
-                        <button type="button" class="btn btn-info pro btn-sm">java</button><br>
-                        <button type="button" class="btn btn-info fam btn-sm">javascript</button>
-                        <h6> Other </h6>
-                        <button type="button" class="btn btn-info pro btn-sm">Photoshop</button><br>
-                        <button type="button" class="btn btn-info pro btn-sm">Final Cut Pro</button><br>
-                        
-                    </div>
-                    <div class="col-lg-6 animated slideInRight">
-                        <h4> other interests</h4>
-                        <div class="col-lg-4">
-                        
-                        <i class="fa fa-music fa-4x"></i>
-                        <p>music</p>
-
-                        <i class="fa fa-plane fa-4x"></i>
-                        <p>traveling</p>
-                        </div>
-                        <div class="col-lg-4">
-                        <i class="fa fa-bicycle fa-4x"></i>
-                        <p>exercising</p>
-                        
-                        <i class="fa fa-pencil fa-4x"></i>
-                        <p>journaling</p>
-                        </div>
-                        <div class="col-lg-4">
-                        <i class="fa fa-book fa-4x"></i>
-                        <p>reading</p>
-                        
-                        <i class="fa fa-globe fa-4x"></i>
-                        <p>learning about different cultures</p>
-                        </div>
-                    </div>
-                    <a href="#download" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Resume</h2>
-        
-                        <a href="https://drive.google.com/file/d/0BwsPt6GGvhsAV2NFeWl0a0dFUG8/view?usp=sharing" class="btn btn-default btn-lg">view here</a> <br> <br>
-                    <a href="#contact" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- LinksSection -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-           
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Links</h2>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="mailto:leslietsai@berkeley.edu" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/in/leslietsai" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/leslietsai" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/leslietsai97" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="http://vsco.co/leslietsaii" class="btn btn-default btn-lg"><i class="fa fa-camera-retro fa-fw"></i> <span class="network-name">Vsco</span></a>
-                    </li>
-                </ul>
-                <br><br><br><br><br><br>
-                <a href="#intro" class="btn btn-circle page-scroll">  <i class="fa fa-angle-double-up animated"></i></a>
-            </div>
-            
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        
-        <div class="container text-center">
-            <p>Copyright &copy; Leslie Tsai 2016</p>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
+  
 </body>
-
 </html>
