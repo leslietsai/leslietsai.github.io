@@ -6,6 +6,7 @@ body {
 		}
 	}
 	font-family: 'Poppins', sans-serif;	
+
 }
 .title img {
     height: 100%;
@@ -30,4 +31,8 @@ body {
 
 .links {
 	padding: 60px;
+}
+
+ul {
+	list-style-type: none;
 }
